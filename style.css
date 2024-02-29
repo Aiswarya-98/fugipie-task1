@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+/* -----------------nav section------------------------- */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
+  padding: 10px 3px;
+}
+
+.support {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.vl {
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 27px;
+}
+
+.navbar h1 span {
+  font-size: 37px;
+  color: #7ebea1;
+  margin-left: 65px;
+}
+
+span {
+  color: #7ebea1;
+}
+
+/* ---------------------Main section-------------- */
+
+.head {
+  /* background: linear-gradient(rgba(240, 237, 237, 0.771), rgba(208, 202, 202, 0.355)); */
+  height: 400px;
+  width: 100%;
+  background: rgb(227, 227, 232);
+  background: radial-gradient(circle, rgba(227, 227, 232, 1) 0%, rgb(248, 246, 246) 59%);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+}
+
+.col1 {
+  width: 30%;
+  height: 300px;
+  margin-left: 150px;
+  /* border: 1px solid black; */
+  padding: 40px;
+}
+
+.col1 h1 {
+  font-size: 70px;
+  line-height: 1.2;
+  word-spacing: 2px;
+}
+
+.know-btn {
+  color: white;
+  height: 39px;
+  width: 135px;
+  border-radius: 25px;
+  border: none;
+  background-color: #9dd7a4;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.col2 {
+  width: 40%;
+  margin-left: 80px;
+  /* border: 1px solid black; */
+}
+
+.col2 img {
+  width: 450px;
+  height: 270px;
+  margin-right: 70px;
+  padding: 15px;
+}
+
+/*-------------------------- Feature section------------------------------ */
+
+#feature {
+  width: 100%;
+}
+
+.container {
+  /* background: rgb(219, 228, 228); */
+  height: 700px;
+  padding: 30px;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 55px;
+}
+
+.title p {
+  text-align: center;
+  padding: 5px;
+}
+
+.course {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.img-card {
+  height: 250px;
+  width: 200px;
+  border: 3px solid grey;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.img-card img {
+  height: 200px;
+  width: 200px;
+}
+
+.course-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.para {
+  text-align: center;
+  margin-top: 45px;
+}
+
+/* --------------course section----------------- */
+
+#course {
+  width: 100%;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  padding: 30px 0;
+  margin-top: 50px;
+}
+
+.text-col {
+  flex-basis: 50%;
+  /* margin-bottom: 20px; */
+  margin-left: 50px;
+}
+
+.text-col h2 {
+  font-size: 50px;
+}
+
+.text-col p {
+  line-height: 1.8;
+  word-spacing: 2px;
+}
+
+.text-col img {
+  width: 450px;
+  border: none;
+}
+
+.img-col {
+  /* flex-basis: 50%; */
+  margin-bottom: 20px;
+  border: none;
+}
+
+.img-col img {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+.list-course {
+  list-style: none;
+  padding: 10px;
+}
+
+.list-course li {
+  display: flex;
+  padding: 10px;
+}
+.list-course li img {
+  width: 40px;
+}
+
+/* ----------------main title--------------- */
+
+.g-title h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+/* --------------footer---------------------- */
+
+.foot {
+  height: 300px;
+  /* padding: 40px 15% 10px; */
+  padding: 20px;
+  width: 100%;
+  background: rgb(200, 200, 202);
+  background: radial-gradient(circle, rgba(227, 227, 232, 1) 0%, rgb(248, 246, 246) 59%);
+}
+
+.foot .row2 {
+  align-items: flex-start;
+  padding: 10px 0;
+  display: flex;
+}
+
+.foot .col2 {
+  /* flex-basis: 25%;
+  flex-grow: 1; */
+  margin-bottom: 20px;
+}
+
+.foot .col2 h2 {
+  color: #777;
+}
+
+.foot .col2 a {
+  display: block;
+  text-decoration: none;
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* ---------copy right section--------- */
+
+.row3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.row3 .message-icon {
+  height: 20px;
+  background-color: #7ebea1;
+  padding: 12px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+/* -----------media query---------- */
+
+/* Media query for screens smaller than 768px  */
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .support {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vl {
+    display: none;
+  }
+
+  .navbar h1 span {
+    margin-left: 0;
+  }
+
+  .head {
+    height: auto;
+  }
+
+  .col1 {
+    width: 100%;
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .col1 h1 {
+    font-size: 40px;
+  }
+
+  .col2 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .col2 img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .container {
+    height: auto; /* Adjust height */
+  }
+
+  .title h1 {
+    font-size: 40px; /* Adjust font size */
+  }
+
+  .course {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .img-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .course-title {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .para {
+    margin-top: 20px;
+  }
+
+  .row1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-col {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .text-col h2 {
+    font-size: 40px; /* Adjust font size */
+  }
+
+  .text-col img {
+    width: 100%;
+    height: auto;
+  }
+
+  .img-col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .img-col img {
+    width: 100%;
+    height: auto;
+  }
+
+  .foot .row2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .foot .col2 {
+    margin-bottom: 20px;
+  }
+}
+
+/* Media query for screens between 768px and 1023px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Add styles for tablets here */
+}
+
+/* Media query for screens larger than 1023px (e.g., desktops) */
+@media (min-width: 1024px) {
+}
